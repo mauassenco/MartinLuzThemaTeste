@@ -1,0 +1,172 @@
+.showcase{
+    margin-bottom: 37px;
+    &__title{
+        font-weight: 700;
+        color: $title;
+        font-size: 32px;
+        line-height: 37.5px;
+        &--controle-gastos{
+            font-weight: 400;
+            margin: 0;
+            color: $title2;
+            padding-bottom: 20px;
+        }
+    }
+    &__sub-title{
+        font-weight: 400;
+        &--controle-gastos{
+            font-weight: 700;
+        }
+    }
+    &__paragraph{
+        font-size: 16px;
+        line-height: 26px;
+        color: $text;
+            }
+    &__image{
+        padding: 40px 0 0;
+        display: flex;
+        justify-content: center;
+        img{
+            // width: 100%;
+            max-width: 364px;
+            height: auto;    
+        }
+        &--organizar-reembolsos{
+            padding: 0;
+            margin: 0;            
+        }
+    }
+    &__cta{
+        margin: 0 24px;        
+        &--controle-gastos{
+            // padding-top: 0;
+            // margin: 0 24px;
+        }    
+        &--reduzir-gastos{
+            padding-top: 60px;
+        }
+    }
+    button{
+        font-weight: 700;
+        min-height: 50px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        line-height: 19px;
+        background: $bg-blue;
+        color: $bg-sec-plan;
+      }
+    p.text-ub{
+        color: $bg-blue;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        span{
+            font-weight: 700;
+        }
+    }
+    &__proposta{    
+            font-size: 18px;
+            line-height: 21px;            
+            color: $bg-blue;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            span{
+                color: $bg-blue;
+                margin-left: -3px;
+            }
+    }    
+}
+
+
+@media (min-width: 768px) {
+    .showcase{
+        margin-bottom: 24px;
+        padding: 0 75px 0 160px;   
+        margin: 0;
+                
+  
+        &__cta{
+            padding-top: 115px;
+            margin: 0;
+            &--controle-gastos{
+                padding-top: 21px;
+                padding-left: 67px;
+                margin-bottom: 30px; 
+                        }
+            &--reduzir-gastos{
+                padding: 80px 80px 55px;
+                margin: 0 auto; 
+                display: flex;
+                padding: 80px 80px 55px;
+                margin: 0 auto;
+                flex-direction: column;
+                align-items: center;
+            }
+            &--organizar-reembolsos{
+                padding-left: 130px;
+                padding-right: 110px;
+                padding-top: 47px;
+            }
+            &--vantagens-exlusivas{
+                padding-left: 127px;
+                padding-top: 24px;
+            }
+            &--decida-agora{
+                padding: 0;
+            }
+        }
+        &__title{
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 49px;
+            &--controle-gastos{
+                font-size: 32px;
+                line-height: 40px;
+                padding-bottom: 10px;
+            }
+        }
+        &__sub-title{
+            font-weight: 700;
+        }
+        &__paragraph{
+            &--reduzir-gastos{
+                width: 55%;
+            }
+        }
+        
+    
+        p.text-ub{
+            text-align: left;
+           
+        }
+        button{
+            max-width:256px;
+        }
+        figure{
+            padding: 0;
+        }
+        img{
+            max-width: 706px;
+            width: 100%;
+            height: auto;    
+        }
+        &__image{
+            &--organizar-reembolsos{
+                margin-top: -142px;
+                img{
+                    max-width: none;
+                }                    
+            }
+        }
+        &__proposta{
+            display: none;
+        }   
+    }
+}
+
+.material-icons{
+    font-size: 28px;
+}

@@ -1,0 +1,35 @@
+.vantagens-exlusivas{
+    margin-top: 20px;
+    .row{
+        padding: 0 24px 16px;
+        gap: 20px;
+    }
+    &__item{
+        border: 2px solid $bg-carrousel;
+        box-sizing: border-box;
+        border-radius: 20px;
+        min-width: 146px;
+        min-height: 83px;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+    }
+    img{        
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .vantagens-exlusivas{
+        margin: 80px 206px 103px;
+        .row{
+            padding-bottom: 30px;
+            gap: 33px;
+            flex-wrap: nowrap;
+        }
+        &__item{
+            min-width: 256px;
+            min-height: 145px;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.jumbotron{
+    background-image: url('../img/Rectangle44.png');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-left: 0;
+    padding: 44px 24px 40px;
+    color: #FFFFFF;
+    border-radius: 0;    
+        
+    h1{
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 137%;
+        padding-bottom: 30px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;   
+        margin:  auto;     
+    }
+    button{
+        font-weight: 700;
+        min-height: 50px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        line-height: 19px;
+        background: $bg-blue;
+        color: $bg-sec-plan;
+        margin: 25px 28px 18px;
+      }
+}
+
+@media (min-width: 768px) {
+    .jumbotron{
+        background-image: url('../img/Rectangle44b.png');
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 60px;
+        border-radius: 16px;
+        h1{
+            padding-bottom: 0;
+        }
+        button{
+            max-width: 256px;
+            margin: 33px 28px 25px;
+        }
+    }
+}

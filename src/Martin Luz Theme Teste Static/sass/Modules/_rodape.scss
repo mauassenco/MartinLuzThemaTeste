@@ -1,0 +1,25 @@
+.rodape{
+    margin: 30px 35px;
+    h1{
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 137%;
+        color: #303D63;
+    }
+    &__faces{
+        margin: 14px auto;
+        gap: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .rodape{
+        margin: 40px 245px; 
+        display: flex;
+        justify-content: space-between;  
+        align-items: center;      
+        &__faces{
+            margin:14px 0 !important;
+        }
+    }
+}

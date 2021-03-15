@@ -1,0 +1,67 @@
+.decida-agora{
+    margin: 38px 24px 54px;
+    .row, .col-md-6{
+        margin: 0;
+        padding: 0;
+    }
+    &__card{
+        margin-top: 12px;
+        margin-bottom: 13px;
+        // border-bottom: 1px solid #84888C;;
+        img{
+            width: 46px;
+            height: auto;
+        }
+        h5{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: $text;
+        }
+        li{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: $text;
+            margin-bottom: 11px;
+        }
+        .card-body{
+            padding: 0;
+        }
+        &--bpp{
+            padding-top: 40px !important;
+            border-top: 1px  rgba(132, 136, 140, 0.3) solid !important;            
+            
+            h5, li{
+                color: $title2;
+                font-weight: 500;
+                // white-space: nowrap;
+            } 
+        }   
+    }
+}
+
+
+@media (min-width: 768px) {
+    .decida-agora{
+        // margin: 0 166px 70px 266px;
+        margin: 0 216px 70px;
+        justify-content: center;
+       .row{
+            justify-content: center;
+        }
+
+        &__card{
+            margin-top: 40px;
+            &--bpp{       
+                border: none !important;
+                border-left: 1px  rgba(132, 136, 140, 0.3) solid !important;            
+                padding: 0 0 0 58px !important;
+                
+                li:first-child{
+                    margin-top: -10px;
+                }
+            }  
+        }
+    }
+}

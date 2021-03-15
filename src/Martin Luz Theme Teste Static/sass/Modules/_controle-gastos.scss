@@ -1,0 +1,53 @@
+.controle-gastos{
+    margin-bottom: 41px;
+    
+    &__modal-trigger{
+        background-color: $title;
+        width: 100%;
+        max-width: 312px;
+        height: auto;
+        margin: 0 24px 41px;
+        border-radius: 10px;
+        background-color: transparent;
+    }
+    iframe{
+        width: 95%;
+        height: 75vh;
+        background-color: transparent;
+    }
+    .modal-dialog{
+        flex-direction: column;             
+    }
+    .modal-content{
+        background-color: transparent;
+        border: none;
+        text-shadow: none;
+    }
+
+    .modal-header{
+        border: none;
+        padding-top:40px;
+
+        .close{
+            position: absolute;
+            right: 15px;
+            top: 10px;
+            color: $bg-sec-plan;
+            background-color: transparent;
+            box-shadow: transparent;
+            opacity: 1;
+            text-shadow: none;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .controle-gastos{
+        margin-left: 160px;
+        margin-right: 229px;        
+        &__modal-trigger{
+            max-width: 650px;
+            margin: 0;            
+        }
+    }
+}

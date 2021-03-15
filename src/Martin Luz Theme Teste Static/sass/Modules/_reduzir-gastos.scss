@@ -1,0 +1,66 @@
+.reduzir-gastos{
+    background-color: $bg-carrousel;
+    padding-bottom: 54px;
+    &__card{ 
+        img{
+            max-width: 140px;
+            height: auto;       
+        }
+   }
+   &--normal{
+       display: none;
+   }
+   .card{
+        background-color: $bg-carrousel;
+        border: none;
+        // padding-bottom: 32px;
+        &-title{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: $title2;
+        }
+        &-text{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: $text
+        }
+   }
+}
+
+.carousel-indicators{
+    bottom: -35px;
+        li{
+        background-color:  rgba(4, 31, 143, 0.25);;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;       
+    }
+    .active{
+        background-color: $title;
+    }
+}
+
+@media (min-width: 768px) {
+    .reduzir-gastos{
+        &--mobile{
+            display: none;
+        }
+        &--normal{
+            display: block;
+            border-radius: 15px;
+            margin: 80px 60px;
+            padding: 0 160px 55px;
+            
+        }
+        .card-body{
+            padding:0;
+        }
+        .card-img-top{
+            padding-bottom: 30px;
+        }
+    }
+
+}

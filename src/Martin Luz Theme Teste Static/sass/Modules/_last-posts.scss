@@ -1,0 +1,48 @@
+.last-posts{
+    margin: 0 24px;    
+    
+    .col-md-4{
+        padding: 0;
+    }
+    &__title{        
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        color: #041F8F;  
+        padding: 15px 0 35px;       
+    }
+    img{
+        position: relative;
+        width: 100%;
+        margin-bottom: 16px;
+        padding: 0;
+        
+    }
+   &__post-title{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;    
+        color: #fff;
+        position: absolute;
+        bottom: 40px;
+        padding: 0 28px;
+   }
+
+}
+
+@media (min-width: 768px) {
+    .last-posts{
+        margin: 0 160px;   
+        .posts-container{
+            gap: 32px;
+            flex-wrap: nowrap;
+        }
+        &__title{   
+            padding-top: 28px;
+        }
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}

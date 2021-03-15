@@ -1,0 +1,565 @@
+.showcase {
+  margin-bottom: 37px;
+}
+
+.showcase__title {
+  font-weight: 700;
+  color: #041F8F;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+
+.showcase__title--controle-gastos {
+  font-weight: 400;
+  margin: 0;
+  color: #303D63;
+  padding-bottom: 20px;
+}
+
+.showcase__sub-title {
+  font-weight: 400;
+}
+
+.showcase__sub-title--controle-gastos {
+  font-weight: 700;
+}
+
+.showcase__paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  color: #84888C;
+}
+
+.showcase__image {
+  padding: 40px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.showcase__image img {
+  max-width: 364px;
+  height: auto;
+}
+
+.showcase__image--organizar-reembolsos {
+  padding: 0;
+  margin: 0;
+}
+
+.showcase__cta {
+  margin: 0 24px;
+}
+
+.showcase__cta--reduzir-gastos {
+  padding-top: 60px;
+}
+
+.showcase button {
+  font-weight: 700;
+  min-height: 50px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 19px;
+  background: #0285C9;
+  color: #fff;
+}
+
+.showcase p.text-ub {
+  color: #0285C9;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.showcase p.text-ub span {
+  font-weight: 700;
+}
+
+.showcase__proposta {
+  font-size: 18px;
+  line-height: 21px;
+  color: #0285C9;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.showcase__proposta span {
+  color: #0285C9;
+  margin-left: -3px;
+}
+
+@media (min-width: 768px) {
+  .showcase {
+    margin-bottom: 24px;
+    padding: 0 75px 0 160px;
+    margin: 0;
+  }
+  .showcase__cta {
+    padding-top: 115px;
+    margin: 0;
+  }
+  .showcase__cta--controle-gastos {
+    padding-top: 21px;
+    padding-left: 67px;
+    margin-bottom: 30px;
+  }
+  .showcase__cta--reduzir-gastos {
+    padding: 80px 80px 55px;
+    margin: 0 auto;
+    display: flex;
+    padding: 80px 80px 55px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .showcase__cta--organizar-reembolsos {
+    padding-left: 130px;
+    padding-right: 110px;
+    padding-top: 47px;
+  }
+  .showcase__cta--vantagens-exlusivas {
+    padding-left: 127px;
+    padding-top: 24px;
+  }
+  .showcase__cta--decida-agora {
+    padding: 0;
+  }
+  .showcase__title {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 49px;
+  }
+  .showcase__title--controle-gastos {
+    font-size: 32px;
+    line-height: 40px;
+    padding-bottom: 10px;
+  }
+  .showcase__sub-title {
+    font-weight: 700;
+  }
+  .showcase__paragraph--reduzir-gastos {
+    width: 55%;
+  }
+  .showcase p.text-ub {
+    text-align: left;
+  }
+  .showcase button {
+    max-width: 256px;
+  }
+  .showcase figure {
+    padding: 0;
+  }
+  .showcase img {
+    max-width: 706px;
+    width: 100%;
+    height: auto;
+  }
+  .showcase__image--organizar-reembolsos {
+    margin-top: -142px;
+  }
+  .showcase__image--organizar-reembolsos img {
+    max-width: none;
+  }
+  .showcase__proposta {
+    display: none;
+  }
+}
+
+.material-icons {
+  font-size: 28px;
+}
+
+.controle-gastos {
+  margin-bottom: 41px;
+}
+
+.controle-gastos__modal-trigger {
+  background-color: #041F8F;
+  width: 100%;
+  max-width: 312px;
+  height: auto;
+  margin: 0 24px 41px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.controle-gastos iframe {
+  width: 95%;
+  height: 75vh;
+  background-color: transparent;
+}
+
+.controle-gastos .modal-dialog {
+  flex-direction: column;
+}
+
+.controle-gastos .modal-content {
+  background-color: transparent;
+  border: none;
+  text-shadow: none;
+}
+
+.controle-gastos .modal-header {
+  border: none;
+  padding-top: 40px;
+}
+
+.controle-gastos .modal-header .close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  color: #fff;
+  background-color: transparent;
+  box-shadow: transparent;
+  opacity: 1;
+  text-shadow: none;
+}
+
+@media (min-width: 768px) {
+  .controle-gastos {
+    margin-left: 160px;
+    margin-right: 229px;
+  }
+  .controle-gastos__modal-trigger {
+    max-width: 650px;
+    margin: 0;
+  }
+}
+
+.organizar-reembolsos {
+  background-color: #0285C9;
+  padding-top: 15px;
+}
+
+.organizar-reembolsos h1, .organizar-reembolsos p, .organizar-reembolsos a, .organizar-reembolsos span, .organizar-reembolsos button {
+  color: #fff;
+}
+
+.organizar-reembolsos button {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .organizar-reembolsos {
+    border-radius: 15px;
+    padding: 0 60px;
+    margin: 100px 60px 0;
+  }
+  .organizar-reembolsos button {
+    display: block;
+    background-color: #041F8F;
+    border-radius: 5px;
+    max-width: 256px;
+    font-weight: 700;
+  }
+}
+
+.reduzir-gastos {
+  background-color: #F6F9FC;
+  padding-bottom: 54px;
+}
+
+.reduzir-gastos__card img {
+  max-width: 140px;
+  height: auto;
+}
+
+.reduzir-gastos--normal {
+  display: none;
+}
+
+.reduzir-gastos .card {
+  background-color: #F6F9FC;
+  border: none;
+}
+
+.reduzir-gastos .card-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #303D63;
+}
+
+.reduzir-gastos .card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #84888C;
+}
+
+.carousel-indicators {
+  bottom: -35px;
+}
+
+.carousel-indicators li {
+  background-color: rgba(4, 31, 143, 0.25);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #041F8F;
+}
+
+@media (min-width: 768px) {
+  .reduzir-gastos--mobile {
+    display: none;
+  }
+  .reduzir-gastos--normal {
+    display: block;
+    border-radius: 15px;
+    margin: 80px 60px;
+    padding: 0 160px 55px;
+  }
+  .reduzir-gastos .card-body {
+    padding: 0;
+  }
+  .reduzir-gastos .card-img-top {
+    padding-bottom: 30px;
+  }
+}
+
+.vantagens-exlusivas {
+  margin-top: 20px;
+}
+
+.vantagens-exlusivas .row {
+  padding: 0 24px 16px;
+  gap: 20px;
+}
+
+.vantagens-exlusivas__item {
+  border: 2px solid #F6F9FC;
+  box-sizing: border-box;
+  border-radius: 20px;
+  min-width: 146px;
+  min-height: 83px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.vantagens-exlusivas img {
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .vantagens-exlusivas {
+    margin: 80px 206px 103px;
+  }
+  .vantagens-exlusivas .row {
+    padding-bottom: 30px;
+    gap: 33px;
+    flex-wrap: nowrap;
+  }
+  .vantagens-exlusivas__item {
+    min-width: 256px;
+    min-height: 145px;
+  }
+}
+
+.decida-agora {
+  margin: 38px 24px 54px;
+}
+
+.decida-agora .row, .decida-agora .col-md-6 {
+  margin: 0;
+  padding: 0;
+}
+
+.decida-agora__card {
+  margin-top: 12px;
+  margin-bottom: 13px;
+}
+
+.decida-agora__card img {
+  width: 46px;
+  height: auto;
+}
+
+.decida-agora__card h5 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #84888C;
+}
+
+.decida-agora__card li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #84888C;
+  margin-bottom: 11px;
+}
+
+.decida-agora__card .card-body {
+  padding: 0;
+}
+
+.decida-agora__card--bpp {
+  padding-top: 40px !important;
+  border-top: 1px rgba(132, 136, 140, 0.3) solid !important;
+}
+
+.decida-agora__card--bpp h5, .decida-agora__card--bpp li {
+  color: #303D63;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .decida-agora {
+    margin: 0 216px 70px;
+    justify-content: center;
+  }
+  .decida-agora .row {
+    justify-content: center;
+  }
+  .decida-agora__card {
+    margin-top: 40px;
+  }
+  .decida-agora__card--bpp {
+    border: none !important;
+    border-left: 1px rgba(132, 136, 140, 0.3) solid !important;
+    padding: 0 0 0 58px !important;
+  }
+  .decida-agora__card--bpp li:first-child {
+    margin-top: -10px;
+  }
+}
+
+.jumbotron {
+  background-image: url("../img/Rectangle44.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+  padding: 44px 24px 40px;
+  color: #FFFFFF;
+  border-radius: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 137%;
+  padding-bottom: 30px;
+}
+
+.jumbotron p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin: auto;
+}
+
+.jumbotron button {
+  font-weight: 700;
+  min-height: 50px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 19px;
+  background: #0285C9;
+  color: #fff;
+  margin: 25px 28px 18px;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    background-image: url("../img/Rectangle44b.png");
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 60px;
+    border-radius: 16px;
+  }
+  .jumbotron h1 {
+    padding-bottom: 0;
+  }
+  .jumbotron button {
+    max-width: 256px;
+    margin: 33px 28px 25px;
+  }
+}
+
+.last-posts {
+  margin: 0 24px;
+}
+
+.last-posts .col-md-4 {
+  padding: 0;
+}
+
+.last-posts__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #041F8F;
+  padding: 15px 0 35px;
+}
+
+.last-posts img {
+  position: relative;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.last-posts__post-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  position: absolute;
+  bottom: 40px;
+  padding: 0 28px;
+}
+
+@media (min-width: 768px) {
+  .last-posts {
+    margin: 0 160px;
+  }
+  .last-posts .posts-container {
+    gap: 32px;
+    flex-wrap: nowrap;
+  }
+  .last-posts__title {
+    padding-top: 28px;
+  }
+  .last-posts img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.rodape {
+  margin: 30px 35px;
+}
+
+.rodape h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 137%;
+  color: #303D63;
+}
+
+.rodape__faces {
+  margin: 14px auto;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .rodape {
+    margin: 40px 245px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .rodape__faces {
+    margin: 14px 0 !important;
+  }
+}
