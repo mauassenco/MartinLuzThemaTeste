@@ -2,7 +2,7 @@
     <footer class="row rodape">
       <div class="col-md6">
         <h1 class="rodape__title">
-          Esta página foi útil?<i class="bi bi-arrow-right"></i>
+          Esta página foi útil ?<i class="bi bi-arrow-right"></i>
         </h1>
       </div>
       <div class="col-md6 rodape__faces d-flex">
