@@ -7,10 +7,10 @@ Tema personalizado para Wordpress, utilizando PHP, HTML, CSS e Sass, em ambiente
 # Layout
 
 ## Desktop
-![Desktop_1](https://github.com/mauassenco/git-assets/blob/main/Captura%20de%20tela%202021-05-02%20201708.png)
+![Desktop_1](https://github.com/mauassenco/git-assets/blob/master/WP%20Custom%20Theme/Desktop.jpg)
 
 ## Mobile
-![Mobile_1](https://github.com/mauassenco/git-assets/blob/main/Captura%20de%20tela%202021-05-02%20201708.png)
+![Mobile_1](https://github.com/mauassenco/git-assets/blob/master/WP%20Custom%20Theme/Mobile.jpg)
 
 
 # Tecnologias Utilizadas
